@@ -7,6 +7,7 @@ Make sure you have python 3.9+ installed (might work on lower versions, didn't t
 
 ```bash
 pip install -r requirements.txt
+python django_test/manage.py migrate
 ```
 
 ## Running the Server
