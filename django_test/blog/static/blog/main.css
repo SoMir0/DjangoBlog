@@ -40,6 +40,11 @@ ul {
     color: #444444;
 }
 
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+
 a.article-title:hover {
     color: #316592;
     text-decoration: none;
