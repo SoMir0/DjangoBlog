@@ -5,7 +5,7 @@ from django.urls import reverse
 
 class Post(models.Model):
     title = models.CharField(max_length=35)
-    content = models.TextField()
+    content = models.TextField(max_length=2000)
     date_posted = models.DateTimeField(default=timezone.now)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
 
