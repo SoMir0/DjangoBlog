@@ -1,5 +1,5 @@
 body {
-    background: #f0f0f0;
+    background: #EEEEEE;
     color: #262627;
     margin-top: 5rem;
 }
@@ -13,11 +13,11 @@ ul {
 }
 
 .bg-steel {
-    background-color: #2779b4;
+    background-color: #17a2b8;
 }
 
 .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+    color: #EEEEEE;
 }
 
 .site-header .navbar-nav .nav-link:hover {
@@ -29,9 +29,9 @@ ul {
 }
 
 .content-section {
-    background: #f0f0f0;
+    background: #f3f3f3;
     padding: 10px 20px;
-    border: 1px solid #cecece;
+    border: 1px solid #14b6cf;
     border-radius: 3px;
     margin-bottom: 20px;
 }
@@ -46,7 +46,7 @@ ul {
 }
 
 a.article-title:hover {
-    color: #316592;
+    color: #17a2b8;
     text-decoration: none;
 }
 
@@ -63,11 +63,11 @@ a.article-title:hover {
 .article-metadata {
     padding-bottom: 1px;
     margin-bottom: 4px;
-    border-bottom: 1px solid #cecece
+    border-bottom: 1px solid #14b6cf
 }
 
 .article-metadata a:hover {
-    color: #333;
+    color: #14b6cf;
     text-decoration: none;
 }
 
@@ -89,5 +89,14 @@ a.article-title:hover {
 }
 
 .list-group-item {
-    background: #f0f0f0;
+    background: #f3f3f3;
+    border-color: #14b6cf;
+}
+
+.author-text {
+    color: #0c5ea1;
+}
+
+.btn-outline-info .btn-outline-secondary {
+    background: #f3f3f3;
 }
